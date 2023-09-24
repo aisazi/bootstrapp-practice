@@ -153,16 +153,6 @@ li {
     background-color: #0196e3;
     color: #ffffff;
 }
-
-@media only screen and (max-width: 992px) {
-.section3 h2 {
-   padding-left: 0px; 
-   font-size: 70px;
-}
-#order1 {
-   padding-top: 200px;
-}
-}
 .section4 h2 {
     padding-top: 200px;
     font-size: 40px;
@@ -184,6 +174,7 @@ li {
     font-size: 25px;
     color: #36187d;
 }
+
 .text-center {
    padding-top: 100px;
 }
@@ -231,7 +222,6 @@ li {
     padding-left: 100px;
 }
 #money {
-    margin: 20px;
     border-radius: 35px;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
 }
@@ -262,12 +252,12 @@ li {
 .money,.sed {
     margin-bottom: 30px;
 }
-.cardd2 {
-    padding-bottom: 60px;
+.section6 .col-12 {
+    padding-bottom: 20px;
     padding-top: 40px;
-    border-radius: 25px;
 }
- .cardd2 button {
+ .section6 button {
+    margin-bottom: 40px;
     padding: 16px 40px;
     border-radius: 50px;
     border: none;
@@ -298,6 +288,11 @@ li {
    text-align: center;
    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
 }
+.section8 iframe {
+    width: 100%;
+    height: 600px;
+}
+
 .section7 p {
     margin-bottom: 90px;
     font-size: 17px;
@@ -358,7 +353,7 @@ iframe {
 }
 .section10 h3 {
     padding-left: 110px;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 40px;
     font-size: 40px;
     font-weight: 400;
@@ -366,8 +361,17 @@ iframe {
 }
 .section10 .row .row {
     padding: 0px;
+    text-align: center;
 }
-.section10 .col-12 {
+.section10 img {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+/* .section10 .col-12 {
     padding: 60px 0px;
     margin: 20px 0px;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
@@ -380,8 +384,8 @@ iframe {
     border: 20px solid white;
     border-radius: 50%;
     margin-left: 40px;
-}
-.section10 .col-2 div {
+} */
+.section10 .round {
     color: #66c2ff;
     width: 100px;
     height: 100px;
@@ -396,6 +400,7 @@ iframe {
     font-size: 23px;
 }
  
+
 
 
 
@@ -602,9 +607,7 @@ iframe {
    .section11 {
    margin-top: -250px;
    margin-bottom: 50px;
-
    }
-
   .section11 h5 {
     font-size: 25px;
     font-weight: 350;
@@ -700,3 +703,64 @@ footer .row {
 .container {
     /* border: 3px solid black; */
 }
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .section3 h2 {
+       padding-left: 0px; 
+       font-size: 70px;
+    }
+    #common {
+        padding-bottom: 100px;
+     }
+    #order1 {
+       padding-top: 200px;
+    }
+    #common1 {
+        margin-bottom: 200px;
+    }
+    .line {
+        height: 370px;
+    }
+    .section8 iframe {
+        height: 250px;
+    }
+    .section9 .col-12 {
+        margin-bottom: 60px;
+    }
+    .section10 .row {
+        padding: 0px 20px;
+    }
+    .section10 img {
+        margin: 0px;
+    }
+    .section10 h3 {
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .section10 .round {
+        margin: 0 auto;
+    }
+    .section10 .col-12 {
+        margin-bottom: 80px;
+    }
+    .section11{
+        margin-top: 400px;
+    }
+    .row .alone  {
+        margin-top: 50px;
+        padding-left: 10px;
+      }
+     .alone .cardd{
+        padding-left: 50px;
+      }
+      .section11 .row {
+        margin-bottom: 170px;
+     }
+}
+
+
