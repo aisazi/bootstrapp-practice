@@ -1,5 +1,5 @@
 body {
-    background-color:#f8f9fa !important;
+    background-color: #f2f3f7 !important;
 }
 
 
@@ -760,6 +760,12 @@ footer .row {
       }
       .section11 .row {
         margin-bottom: 170px;
+     }
+     #tami button {
+        margin-left: 85px;
+     }
+    footer i {
+        margin: 10px;
      }
 }
 
